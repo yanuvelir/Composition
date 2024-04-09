@@ -10,6 +10,7 @@ public class Data {
         this.year = y;
     }
 
+
     public String toString(){
         return String.format("%s/%s/%s", day, month, year);
     }
